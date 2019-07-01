@@ -1,0 +1,61 @@
+* {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: Raleway, sans-serif;
+	background-color: rgba(255,255,255,0.2);
+	background-image: url('../images/bg.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+h1, h2 {
+	color: #1c4e9e;
+}
+h1 {
+	font-style: italic;
+	text-align: center;
+	background-color: rgba(255,255,255,0.65);
+}
+h2 {
+	font-weight: normal;
+	text-decoration: underline;
+}
+mark {
+	font-family: Nunito, cursive;
+}
+strong, em {
+	color: black;
+	text-decoration: underline;
+}
+p {
+	text-align: justify;
+	font-size: 22px;
+	line-height: 28px;
+}
+.destaque {
+	background-color: orange;
+	color: purple;
+}
+label {
+	font-weight: bold;
+}
+input:focus, select:focus, textarea:focus {
+	background-color: #ccffcc;
+	font-weight: bolder;
+}
+a:hover {
+	background-color: #f15022;
+	font-weight: bolder;
+	color: white;
+	border: 2px solid purple;
+}
+textarea {
+	resize: both;
+	font-weight: bolder;
+}
+img.hobbies:hover {
+	filter: drop-shadow(1px 1px 3px black) grayscale(100%);
+		-webkit-filter: drop-shadow(1px 1px 3px black) grayscale(100%);
+	border-radius: 20px;
+}
